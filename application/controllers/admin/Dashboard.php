@@ -21,7 +21,7 @@ class Dashboard extends CI_Controller{
         $this->load->library('session');
         $this->load->helper('form');
         if(!$this->session->userdata('user')) {
-            $this->session->set_flashdata('errors', 'Chall Hatt');
+            $this->session->set_flashdata('errors', 'You are not authorized!');
             redirect(base_url() . 'login/main');
         } 
     }
