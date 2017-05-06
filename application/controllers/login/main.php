@@ -22,7 +22,7 @@ class Main extends CI_Controller
     
     public function login()
     {
-        $this->load->view('admin/layout/login_form');
+        $this->load->view('admin/login/login_form');
     }
     
     public function validation_rules()

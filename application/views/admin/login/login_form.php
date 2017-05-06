@@ -75,7 +75,7 @@ to Theme </span> </a>
             </div>
             <div class="alert alert-warning login-alert">Please read our <b>Terms of Use</b> before logging in.</div>
           </div>
-          <div class="panel-footer"> <span class="panel-title-sm pull-left" style="padding-top: 7px;"><a> Forgotten Password?</a></span>
+          <div class="panel-footer"> <span class="panel-title-sm pull-left" style="padding-top: 7px;"><a href="<?php echo base_url(). 'login/forgotpassword'?>"> Forgotten Password?</a></span>
             <div class="form-group margin-bottom-none">
               <input class="btn btn-primary pull-right" type="submit" value="Login" />
               <div class="clearfix"></div>
